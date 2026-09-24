@@ -100,7 +100,7 @@ The rule was tested with a controlled HTTP request to `/ids-test`, which generat
 
 ![Suricata Configuration Test](evidence/02-suricata-configuration-test.png)
 
-**Suricata Rule Loaded**
+**Suricata Rules Loaded**
 
 ![Suricata Rules Loaded](evidence/03-suricata-rules-loaded.png)
 

@@ -1,0 +1,51 @@
+{
+    "timestamp": "2026-09-24T10:02:27.356738+0100",
+    "flow_id": 856323664533844,
+    "in_iface": "eth0",
+    "event_type": "alert",
+    "src_ip": "xx.0.x.xx",
+    "src_port": 34322,
+    "dest_ip": "xxx.20.xx.xxx",
+    "dest_port": 80,
+    "proto": "TCP",
+    "ip_v": 4,
+    "pkt_src": "wire/pcap",
+    "tx_id": 0,
+    "alert": {
+        "action": "allowed",
+        "gid": 1,
+        "signature_id": 1000001,
+        "rev": 1,
+        "signature": "LOCAL TEST - HTTP IDS Detection",
+        "category": "",
+        "severity": 3
+    },
+    "ts_progress": "request_complete",
+    "tc_progress": "response_complete",
+    "http": {
+        "hostname": "example.com",
+        "url": "/ids-test",
+        "http_user_agent": "curl/8.18.0",
+        "http_content_type": "text/html",
+        "http_method": "HEAD",
+        "protocol": "HTTP/1.1",
+        "status": 404,
+        "length": 0
+    },
+    "app_proto": "http",
+    "direction": "to_server",
+    "flow": {
+        "pkts_toserver": 4,
+        "pkts_toclient": 3,
+        "bytes_toserver": 320,
+        "bytes_toclient": 370,
+        "start": "2026-09-24T10:02:27.002770+0100",
+        "src_ip": "xx.0.x.xx",
+        "dest_ip": "xxx.20.xx.xxx",
+        "src_port": 34322,
+        "dest_port": 80
+    }
+}
+
+
+

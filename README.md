@@ -92,23 +92,39 @@ The rule was tested with a controlled HTTP request to `/ids-test`, which generat
 
 ## Evidence
 
+**Suricata Version**
+
 ![Suricata Version](evidence/01-suricata-version.png)
+
+**Suricata Configuration Test**
 
 ![Suricata Configuration Test](evidence/02-suricata-configuration-test.png)
 
+**Suricata Rule Loaded**
+
 ![Suricata Rules Loaded](evidence/03-suricata-rules-loaded.png)
+
+**Custom Rule Detection**
 
 ![Custom Rule Detection](evidence/04-custom-rule-detection.png)
 
+**EVE JSON Alert**
+
 ![EVE JSON Alert](evidence/05-eve-json-alert.png)
+
+**Custom Rule Negative Test**
 
 ![Custom Rule Negative Test](evidence/06-custom-rule-negative-test.png)
 
+**Structured Alert Analysis**
+
 [Structured Alert Analysis](evidence/07-structured-alert-analysis.txt)
+
+**Suricata Statistics**
 
 ![Suricata Statistics](evidence/08-suricata-statistics.png)
 
-![Custom Detection Rule](evidence/09-custom-detection-rule.png)
+**Custom Detection Rule**![Custom Detection Rule](evidence/09-custom-detection-rule.png)
 
 ## Key Findings
 
